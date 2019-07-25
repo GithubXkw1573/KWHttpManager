@@ -1,10 +1,14 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'git@github.com:GithubXkw1573/PublicSpecs.git'
+
 platform :ios, '8.0'
 
 target 'KWHttpManager_Example' do
   pod 'KWHttpManager', :path => '../'
-
+  pod 'AFNetworking', '~> 3.1.0'
+  
   target 'KWHttpManager_Tests' do
     inherit! :search_paths
 

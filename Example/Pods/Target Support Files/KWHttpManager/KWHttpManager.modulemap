@@ -1,0 +1,6 @@
+framework module KWHttpManager {
+  umbrella header "KWHttpManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

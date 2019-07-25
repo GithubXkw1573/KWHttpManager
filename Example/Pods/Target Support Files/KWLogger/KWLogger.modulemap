@@ -1,0 +1,6 @@
+framework module KWLogger {
+  umbrella header "KWLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module KWCategoriesLib {
+  umbrella header "KWCategoriesLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
